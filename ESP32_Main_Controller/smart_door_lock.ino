@@ -15,11 +15,11 @@ Servo sweepServo;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // ------------------- WIFI -----------------------
-const char* ssid = "BIT-SIH";
-const char* password = "bitsih@2025";
+const char* ssid = "yours ssid";
+const char* password = "yours password";
 
 // Use your actual web app URL
-String GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyc81V3-rsGTrPiiMs9G59bC8antqeC9zXpl8Ge-pyUzk8PdZWn4dt5JtQSfBHmnPwwWw/exec";
+String GOOGLE_SCRIPT_URL = "yours google script url her";
 
 // ------------------- PINS -----------------------
 const int RED_LED = 2;
@@ -49,10 +49,10 @@ Student getStudentFromID(int id){
     case 1: return {"KALPANA","MEMBER"};
     case 2: return {"HEMANTH","MEMBER"};
     case 3: return {"SRAVYA","MEMBER"};
-    case 4: return {"CHANDINI","TEAM_LEAD"};
+    case 4: return {"CHANDINI","MEMBER"};
     case 5: return {"CHANDU","MEMBER"};
     case 6: return {"CHANDU","MEMBER"};
-    case 7: return {"AJAY","MENTOR"};
+    case 7: return {"AJAY","MEMBER"};
     default: return {"Unknown","Unknown"};
   }
 }

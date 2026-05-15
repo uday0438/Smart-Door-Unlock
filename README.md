@@ -1,5 +1,7 @@
 # Smart Door Unlocking System 🚀
 
+![Smart Door Banner](images/banner.png)
+
 AI-powered Smart Door Unlocking System using **ESP32**, **HuskyLens**, and **ESP32-CAM** with facial recognition, cloud attendance logging, and intruder detection.
 
 ## 📌 Project Overview

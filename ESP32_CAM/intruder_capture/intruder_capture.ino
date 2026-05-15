@@ -5,12 +5,12 @@
 #include "base64.h"
 
 // ---------------- CONFIG ----------------
-const char* WIFI_SSID = "BIT-SIH";
-const char* WIFI_PASS = "bitsih@2025";
+const char* WIFI_SSID = "yours ssid";
+const char* WIFI_PASS = "yours password";
 
 // Apps Script URL for Image Upload
-const String GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxYcI92rESL0iVDXBcCE-7426s09A5sv53NakncCgDTrqYHQ-pqyX6gakPxL8zwkyQsww/exec";
-const String SHARED_SECRET = "Uday@9440100517"; 
+const String GOOGLE_SCRIPT_URL = "yors google script url here";
+const String SHARED_SECRET = "yours-secret-key"; 
 
 // ---------------- CAMERA PIN DEFINES (AI-Thinker ESP32-CAM) ----------------
 #define PWDN_GPIO_NUM     32
